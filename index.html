@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,15 @@
     <meta name="description" content="Cafeteria especializada em cafés Gourmet e alta qualidade">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <a href="index.html" class="logo">
@@ -33,32 +38,78 @@
             <h2 class="texto-painel">Aqui o café é só o começo.</h2>
         </section>
 
-        <section>
-            
+        <section class="secao-com-texto" id="quem-somos">
+            <header>
+                <img src="src/images/logo-secoes.png" alt="Logo das seções">
+                <h2>Quem somos</h2>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio obcaecati error dolorum voluptates
+                necessitatibus maiores quos omnis vitae reprehenderit, consequuntur blanditiis porro numquam odio
+                incidunt ad culpa! Ut, officia odit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+                culpa beatae tempore labore dolore, eligendi maxime ut sit minus deleniti! Tenetur vel consequatur
+                minima voluptatem, soluta non totam nobis! Sequi? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quasi tenetur quae autem unde aut sequi nobis adipisci molestias voluptas! Vel soluta nihil
+                expedita fuga veniam quasi animi. Quasi, asperiores labore.
+            </p>
+
         </section>
 
-        <section>
-            
+        <section class="ladrilho">
+            <div class="grande"></div>
+            <div class="pequeno grao"></div>
+            <div class="pequeno"></div>
+            <div class="medio"></div>
         </section>
 
-        <section>
-            
+        <section class="secao-com-texto onde-estamos" id="onde-estamos">
+            <header>
+                <img src="src/images/logo-secoes.png" alt="Logo das seções">
+                <h2>Onde Estamos</h2>
+            </header>
+            <p>
+                Avenida Brigadeiro Faria Lima, 444 São Paulo
+            </p>
+
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="texto">
+                <h2>Contato</h2>
+                <address>
+                    Telefone: (51) 9-9999-9999 <br>
+                    Email: contato@codecafe.com <br><br>
+
+                    Horário de atendimento: <br>
+                    seg a sex - 9h até 18h
+                </address>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <a href=""></a>
+    <footer class="rodape">
+        <a href="index.html" class="logo">
+        </a>
 
         <ul>
-            <li><a href="">Quem Somos</a></li>
-            <li><a href="">Onde Estamos</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#onde-estamos">Onde Estamos</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
-        
-        <div class="redes-sociais"></div>
-        <div class="copyright">© 2023 code café</div>
-        
+
+        <div class="conteudo-de-baixo">
+        <div class="redes-sociais">
+            <a href="#" target="_blank">
+                <img class="facebook" src="src/images/facebook.png" title="logo facebook" alt="logo facebook">
+            </a>
+            <a href="#" target="_blank">
+                <img class="instagram" src="src/images/insta.png" title="logo instagram" alt="logo instagram">
+            </a>
+        </div>
+        <div class="copyright">© 2023 code café</div> 
+        </div>
     </footer>
 
 </body>
+
 </html>

@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+    .secao-com-texto {
+        padding: 153px 40px;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contato {
+        background-image: none;
+        background-color: #fcdcb4;
+    }
+
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .contato h2 {
+        margin-bottom: 46px;
+    }    
+}
+
+@media (max-width: 720px) {
+    .ladrilho .grande,
+    .ladrilho .medio {
+        width: 100%;
+    }
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 50%;
+    }
+
+    .rodape {
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape .logo {
+        display: block;
+        margin: auto;
+    }
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+    
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape ul li a{
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais {
+        float: none;
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    html {
+        font-size: 80%;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho .logo {
+        display: block;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2 {
+        font-size: 2.5rem;
+    }
+
+    .secao-com-texto h3 {
+        font-size: 3rem;
+    }
+
+    .secao-com-texto.onde-estamos p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 100%;
+    }
+}
